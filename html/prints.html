@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111111">
+    <title>Benjamin Hardman – Benjamin Hardman Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Roboto+Condensed:wght@700&family=Roboto+Mono:wght@400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/studio.css?v=23">
+</head>
+<body class="studio-page bg-white text-black selection:bg-black selection:text-white flex flex-col min-h-screen">
+    <div class="announcement-bar w-full bg-white border-b border-neutral-100 text-center">
+        <p class="announcement-copy uppercase font-medium"><a href="https://store.benjaminhardman.com/pages/faq">FRAMED PRINTS NOW AVAILABLE</a></p>
+    </div>
+
+    <header class="studio-header w-full border-b border-neutral-100">
+        <div class="studio-header-main">
+            <nav class="header-links flex" aria-label="Print navigation">
+                <a href="https://store.benjaminhardman.com/collections/otherworld" class="nav-link">OTHERWORLD</a>
+                <a href="https://store.benjaminhardman.com/collections/all-prints" class="nav-link">ALL PRINTS</a>
+            </nav>
+            <button id="mobileMenuToggle" class="mobile-menu-toggle" type="button" aria-label="Open site navigation" aria-expanded="false" aria-controls="mobileSiteMenu">
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <a href="https://store.benjaminhardman.com/" class="header-logo text-black hover:opacity-90 transition-opacity" aria-label="Benjamin Hardman home">
+                <img src="https://store.benjaminhardman.com/cdn/shop/files/BH-Logo_400x@2x.png?v=1614760548" alt="Benjamin Hardman Studio">
+            </a>
+
+            <div class="header-actions flex items-center">
+                <a href="https://store.benjaminhardman.com/account" class="account-action" aria-label="Log in"><svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7z"/></svg></a>
+                <a href="https://store.benjaminhardman.com/search" aria-label="Search"><svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="7"/><path d="M16 16l5.5 5.5"/></svg></a>
+                <a href="https://store.benjaminhardman.com/cart" aria-label="Cart">
+                    <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 7h15l-1.2 14H5.7z"/><path d="M8.5 10V6.5a3.5 3.5 0 0 1 7 0V10"/></svg>
+                </a>
+            </div>
+        </div>
+    </header>
+    <nav id="mobileSiteMenu" class="mobile-site-menu" aria-label="Mobile site navigation" aria-hidden="true">
+        <a href="https://store.benjaminhardman.com/collections/otherworld">OTHERWORLD</a>
+        <a href="https://store.benjaminhardman.com/collections/all-prints">ALL PRINTS</a>
+        <a href="https://store.benjaminhardman.com/account">LOG IN</a>
+    </nav>
+
+    <main id="top">
+        <section class="studio-hero relative overflow-hidden" aria-labelledby="hero-title">
+            <div class="studio-hero-inner mx-auto relative flex items-center">
+                <div class="studio-hero-background absolute inset-0">
+                    <img src="https://store.benjaminhardman.com/cdn/shop/files/BH_03855-Edit-2_1800x.jpg?v=1638132885" alt="Reindeer emerging from a snowy polar landscape" class="hero-image object-cover object-center opacity-95" fetchpriority="high">
+                </div>
+                <div class="studio-hero-content relative z-10 mx-auto flex justify-end">
+                    <div class="studio-hero-card bg-white border">
+                        <h1 id="hero-title" class="condensed-heading text-black">FINE ART PRINTS</h1>
+                        <p>Welcome to the print store of polar photographer Benjamin Hardman, comprising of fine-art works from Iceland, Greenland, Svalbard and Antarctica. Frames now available!</p>
+                        <a href="https://store.benjaminhardman.com/collections/all-prints" class="studio-cta inline-block bg-black text-white font-semibold uppercase hover:bg-neutral-800 transition-colors">SEE ALL PRINTS</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="prints-grid" class="prints-section mx-auto" aria-labelledby="collection-title">
+            <div class="collection-heading">
+                <h2 id="collection-title" class="condensed-heading text-black">OTHERWORLD | ICELAND EXHIBITION</h2>
+                <a href="https://store.benjaminhardman.com/collections/otherworld" class="view-all-link">View all</a>
+            </div>
+
+            <div class="product-grid grid">
+                <article class="product-card group cursor-pointer text-center">
+                    <div class="product-image-frame w-full aspect-square bg-white overflow-hidden mb-4 relative">
+                        <img src="https://store.benjaminhardman.com/cdn/shop/files/34ef108ad1c1461189ebe8b0764f7aba_360x.jpg?v=1700930842" alt="Peace Within the Steam" class="w-full h-full object-cover object-center" loading="lazy">
+                    </div>
+                    <h3 class="condensed-heading text-black tracking-[0.08em]"><a href="https://store.benjaminhardman.com/products/peace-within-the-steam-5" class="product-link">PEACE WITHIN THE STEAM</a></h3>
+                    <p>from $79.00</p>
+                </article>
+
+                <article class="product-card group cursor-pointer text-center">
+                    <div class="product-image-frame w-full aspect-square bg-white overflow-hidden mb-4 relative">
+                        <img src="https://store.benjaminhardman.com/cdn/shop/files/9366d96d18e64f24a20756da2aa05efe_360x.jpg?v=1700930870" alt="Winter Contrasts" class="w-full h-full object-cover object-center" loading="lazy">
+                    </div>
+                    <h3 class="condensed-heading text-black tracking-[0.08em]"><a href="https://store.benjaminhardman.com/products/winter-contrasts-1" class="product-link">WINTER CONTRASTS</a></h3>
+                    <p>from $79.00</p>
+                </article>
+
+                <article class="product-card group cursor-pointer text-center">
+                    <div class="product-image-frame w-full aspect-square bg-white overflow-hidden mb-4 relative">
+                        <img src="https://store.benjaminhardman.com/cdn/shop/files/325620824d944bb5b169a26b70020fc4_360x.jpg?v=1720047765" alt="The Winter Freeze" class="w-full h-full object-cover object-center" loading="lazy">
+                    </div>
+                    <h3 class="condensed-heading text-black tracking-[0.08em]"><a href="https://store.benjaminhardman.com/products/the-winter-freeze" class="product-link">THE WINTER FREEZE</a></h3>
+                    <p>from $79.00</p>
+                </article>
+
+                <article class="product-card group cursor-pointer text-center">
+                    <div class="product-image-frame w-full aspect-square bg-white overflow-hidden mb-4 relative">
+                        <img src="https://store.benjaminhardman.com/cdn/shop/files/ff316243b98f46c49309d0f5a513aeea_360x.jpg?v=1720047714" alt="The Beginning" class="w-full h-full object-cover object-center" loading="lazy">
+                    </div>
+                    <h3 class="condensed-heading text-black tracking-[0.08em]"><a href="https://store.benjaminhardman.com/products/the-beginning" class="product-link">THE BEGINNING</a></h3>
+                    <p>from $79.00</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="about-section bg-neutral-50 border-y border-neutral-100" aria-labelledby="about-title">
+            <div class="about-inner mx-auto grid grid-cols-1 md:grid-cols-2 items-center">
+                <div class="about-photo-column flex justify-center md:justify-end">
+                    <div class="about-photo-frame bg-neutral-200 overflow-hidden relative">
+                        <img src="https://store.benjaminhardman.com/cdn/shop/files/IMG_8599-2_2_900x.jpg?v=1700967997" alt="Benjamin Hardman in a polar expedition jacket" class="w-full h-full object-cover object-center" loading="lazy">
+                    </div>
+                </div>
+                <div class="about-copy text-left">
+                    <h2 id="about-title" class="condensed-heading text-black">ABOUT THE ARTIST</h2>
+                    <p class="about-intro">Benjamin is a landscape photographer and natural history cinematographer based in Iceland.</p>
+                    <p class="about-description">After 10 years working as a photographer on polar expeditions and as a natural history cinematographer on productions for companies such as Netflix and the BBC, Benjamin has developed a strong passion for documenting the lands of Iceland, Greenland, Svalbard and Antarctica, all with a focus on creating minimalistic and abstract fine-art imagery.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="story-section mx-auto" aria-label="Print guides and collection information">
+            <div class="story-grid grid grid-cols-1 md:grid-cols-3">
+                <article class="story-card text-center flex flex-col items-center">
+                    <div class="story-image-frame bg-neutral-100 overflow-hidden">
+                        <img src="https://store.benjaminhardman.com/cdn/shop/files/PrintCollection1_4503be5e-5922-47ae-8e04-8af66331738c_900x.jpg?v=1701026427" alt="Framed fine art print displayed on a timber wall" class="story-image object-cover object-center" loading="lazy">
+                    </div>
+                    <h3 class="story-title condensed-heading text-black tracking-[0.06em]">SIZES &amp; FRAMING GUIDE</h3>
+                    <p class="story-copy">A detailed breakdown of the four sizing options that are currently on sale and the respective framing options. Charts, measurements and everything in between.</p>
+                    <a href="https://store.benjaminhardman.com/pages/sizing-guide" class="story-link font-semibold text-black underline underline-offset-4 hover:opacity-75 uppercase">SEE THE SIZES</a>
+                </article>
+
+                <article class="story-card text-center flex flex-col items-center">
+                    <div class="story-image-frame bg-neutral-100 overflow-hidden">
+                        <img src="https://store.benjaminhardman.com/cdn/shop/files/shutterstock_1885882675_7ccbeaf3-9c11-4925-903a-d5a5a0358465_900x.jpg?v=1700967355" alt="Paired prints displayed on a concrete wall" class="story-image object-cover object-center" loading="lazy">
+                    </div>
+                    <h3 class="story-title condensed-heading text-black tracking-[0.06em]">INSPIRATION FOR PAIRING</h3>
+                    <p class="story-copy">Create eye catching pairs and combinations of prints for your space from the current print collection. Here is an article with Benjamin's personal curation ideas.</p>
+                    <a href="https://store.benjaminhardman.com/pages/pairing-your-prints" class="story-link font-semibold text-black underline underline-offset-4 hover:opacity-75 uppercase">SEE THE ARTICLE</a>
+                </article>
+
+                <article class="story-card text-center flex flex-col items-center">
+                    <div class="story-image-frame bg-neutral-100 overflow-hidden">
+                        <img src="https://store.benjaminhardman.com/cdn/shop/files/9366d96d18e64f24a20756da2aa05efe_360x.jpg?v=1700930870" alt="Winter landscape print from the collection" class="story-image object-cover object-center" loading="lazy">
+                    </div>
+                    <h3 class="story-title condensed-heading text-black tracking-[0.06em]">THE PRINT COLLECTION</h3>
+                    <p class="story-copy">Head here to see all the prints currently available. The prints are carefully produced on museum quality Hahnemühle photo rag 308gsm paper.</p>
+                    <a href="https://store.benjaminhardman.com/collections/all-prints" class="story-link font-semibold text-black underline underline-offset-4 hover:opacity-75 uppercase">SHOP NOW</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="studio-footer bg-white border-t border-neutral-100 mt-auto">
+        <div class="footer-main mx-auto grid grid-cols-1 md:grid-cols-2">
+            <div class="footer-links flex flex-col">
+                <a href="https://store.benjaminhardman.com/" class="footer-logo text-black" aria-label="Benjamin Hardman home">
+                    <img src="https://store.benjaminhardman.com/cdn/shop/files/BH-Logo_821ddd6b-aa1c-4270-a84d-0d6a1cf61e2d_x22@2x.png?v=1614760549" alt="Benjamin Hardman Studio">
+                </a>
+                <div class="footer-link-list flex flex-col text-neutral-600">
+                    <a href="https://store.benjaminhardman.com/pages/faq" class="hover:text-black transition-colors">FAQ &amp; Shipping Information</a>
+                    <a href="https://store.benjaminhardman.com/pages/about-us" class="hover:text-black transition-colors">About Us</a>
+                    <a href="https://store.benjaminhardman.com/pages/terms-and-conditions" class="hover:text-black transition-colors">Terms and Conditions</a>
+                    <a href="https://store.benjaminhardman.com/pages/privacy-policy" class="hover:text-black transition-colors">Privacy Policy</a>
+                </div>
+            </div>
+
+            <div class="newsletter">
+                <button id="newsletterToggle" class="newsletter-toggle" type="button" aria-expanded="false" aria-controls="newsletterPanel">THE PRINT MAILING LIST</button>
+                <div class="newsletter-panel" id="newsletterPanel">
+                    <h2 class="condensed-heading newsletter-title text-black tracking-[0.1em]">THE PRINT MAILING LIST</h2>
+                    <p class="newsletter-copy text-neutral-600">Subscribe to get exclusive information on Benjamin's future print releases.</p>
+                    <form onsubmit="event.preventDefault();" class="newsletter-form relative">
+                        <label class="sr-only" for="newsletter-email">Email address</label>
+                        <input id="newsletter-email" type="email" placeholder="Enter your email" required class="newsletter-input text-black">
+                        <button type="submit" class="newsletter-submit absolute text-black hover:opacity-60 transition-opacity" aria-label="Subscribe"><i class="fa-regular fa-envelope" aria-hidden="true"></i></button>
+                    </form>
+                </div>
+                <div class="footer-socials newsletter-socials flex items-center">
+                    <a href="https://www.instagram.com/benjaminhardman/" target="_blank" rel="noopener noreferrer" class="footer-social flex items-center justify-center hover:opacity-80 transition-opacity" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://facebook.com/benjaminhardmanphotography" target="_blank" rel="noopener noreferrer" class="footer-social flex items-center justify-center hover:opacity-80 transition-opacity" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/user/BenjaminHardman/" target="_blank" rel="noopener noreferrer" class="footer-social flex items-center justify-center hover:opacity-80 transition-opacity" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom flex flex-col items-center justify-center border-t border-neutral-100">
+            <div class="text-neutral-400 text-sm" aria-label="PayPal accepted"><i class="fa-brands fa-cc-paypal" aria-hidden="true"></i></div>
+        </div>
+    </footer>
+    <script>
+        const menuToggle = document.getElementById('mobileMenuToggle');
+        const mobileMenu = document.getElementById('mobileSiteMenu');
+        function setMobileMenuOpen(isOpen) {
+            menuToggle.setAttribute('aria-expanded', String(isOpen));
+            menuToggle.setAttribute('aria-label', isOpen ? 'Close site navigation' : 'Open site navigation');
+            mobileMenu.setAttribute('aria-hidden', String(!isOpen));
+            mobileMenu.classList.toggle('is-open', isOpen);
+            document.body.classList.toggle('menu-open', isOpen);
+        }
+
+        menuToggle.addEventListener('click', () => {
+            setMobileMenuOpen(menuToggle.getAttribute('aria-expanded') !== 'true');
+        });
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => setMobileMenuOpen(false));
+        });
+        document.addEventListener('keydown', event => {
+            if (event.key === 'Escape') setMobileMenuOpen(false);
+        });
+
+        const newsletterToggle = document.getElementById('newsletterToggle');
+        const newsletter = document.querySelector('.newsletter');
+        newsletterToggle.addEventListener('click', () => {
+            const isOpen = newsletterToggle.getAttribute('aria-expanded') !== 'true';
+            newsletterToggle.setAttribute('aria-expanded', String(isOpen));
+            newsletter.classList.toggle('is-open', isOpen);
+        });
+    </script>
+</body>
+</html>
